@@ -2,10 +2,10 @@ public class Question3 {
 
     public static void main(String[] args) {
 
-        String example = "Apple";
-        String example2 = "Apple";
+        String example = new String("Apple");
+        String example2 = new String("Apple");
 
-        if(example == example2)
+        if(example.equals(example2))
             System.out.println("They are Equal");
         else
             System.out.println("They are Not Equal");
