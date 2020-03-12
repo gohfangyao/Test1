@@ -1,0 +1,13 @@
+public class Question3 {
+
+    public static void main(String[] args) {
+
+        String example = "Apple";
+        String example2 = "Apple";
+
+        if(example == example2)
+            System.out.println("They are Equal");
+        else
+            System.out.println("They are Not Equal");
+    }
+}
